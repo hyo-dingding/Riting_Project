@@ -1,73 +1,42 @@
-<p align="center">
-  <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
-</p>
+# Riting_Project
 
-[circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
-[circleci-url]: https://circleci.com/gh/nestjs/nest
+## Tech Stacks
+- Nest.js Framework
+- mySQL
+- TypeORM
+- Postman
 
-  <p align="center">A progressive <a href="http://nodejs.org" target="_blank">Node.js</a> framework for building efficient and scalable server-side applications.</p>
-    <p align="center">
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/v/@nestjs/core.svg" alt="NPM Version" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/l/@nestjs/core.svg" alt="Package License" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/dm/@nestjs/common.svg" alt="NPM Downloads" /></a>
-<a href="https://circleci.com/gh/nestjs/nest" target="_blank"><img src="https://img.shields.io/circleci/build/github/nestjs/nest/master" alt="CircleCI" /></a>
-<a href="https://coveralls.io/github/nestjs/nest?branch=master" target="_blank"><img src="https://coveralls.io/repos/github/nestjs/nest/badge.svg?branch=master#9" alt="Coverage" /></a>
-<a href="https://discord.gg/G7Qnnhy" target="_blank"><img src="https://img.shields.io/badge/discord-online-brightgreen.svg" alt="Discord"/></a>
-<a href="https://opencollective.com/nest#backer" target="_blank"><img src="https://opencollective.com/nest/backers/badge.svg" alt="Backers on Open Collective" /></a>
-<a href="https://opencollective.com/nest#sponsor" target="_blank"><img src="https://opencollective.com/nest/sponsors/badge.svg" alt="Sponsors on Open Collective" /></a>
-  <a href="https://paypal.me/kamilmysliwiec" target="_blank"><img src="https://img.shields.io/badge/Donate-PayPal-ff3f59.svg"/></a>
-    <a href="https://opencollective.com/nest#sponsor"  target="_blank"><img src="https://img.shields.io/badge/Support%20us-Open%20Collective-41B883.svg" alt="Support us"></a>
-  <a href="https://twitter.com/nestframework" target="_blank"><img src="https://img.shields.io/twitter/follow/nestframework.svg?style=social&label=Follow"></a>
-</p>
-  <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
-  [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
 
-## Description
+## Postman
+<img width="920" alt="login png" src="https://github.com/hyo-dingding/Riting_Project/assets/107694757/adaea4f2-b880-4f53-864c-df2b1bc1fe8b">
+<img width="921" alt="signup png" src="https://github.com/hyo-dingding/Riting_Project/assets/107694757/acdb8a84-1cb8-4c28-a430-029373b19f16">
+<img width="923" alt="email" src="https://github.com/hyo-dingding/Riting_Project/assets/107694757/bbd05c6b-c0ac-4c2e-b49d-dd51ef112b67">
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
 
-## Installation
+## Environment
+환경 변수는 프로젝트의 루트 패스 기준으로 .env 라는 이름으로 파일을 생성해서 아래 내용을 기입해주시면 됩니다.
 
-```bash
-$ yarn install
+![image](https://github.com/hyo-dingding/Riting_Project/assets/107694757/48836888-2e9b-412c-b16a-ce1a3a9973cb)
+
+## 환경변수 내용
 ```
+JWT_SECRET=
 
+DEV_DB_TYPE=mysql
+DEV_DB_HOST=
+DEV_DB_PORT=3306
+DEV_DB_USERNAME=
+DEV_DB_PASSWORD=
+DEV_DB_DATABASE=
+
+DATABASE_ROOT_PASSWORD=
+```
 ## Running the app
-
-```bash
+데모를 실행해보실 때는 npm run start로 실행해보시면 됩니다.
+```
 # development
-$ yarn run start
+$ yarn start
 
 # watch mode
-$ yarn run start:dev
-
-# production mode
-$ yarn run start:prod
+$ yarn start:dev
 ```
-
-## Test
-
-```bash
-# unit tests
-$ yarn run test
-
-# e2e tests
-$ yarn run test:e2e
-
-# test coverage
-$ yarn run test:cov
-```
-
-## Support
-
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
-
-## Stay in touch
-
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
-
-## License
-
-Nest is [MIT licensed](LICENSE).
