@@ -1,0 +1,26 @@
+version: '3.8'
+
+services:
+  # my-backend:
+  #   build:
+  #     context: .
+  #     dockerfile: Dockerfile
+  #   volumes:
+  #     - ./src:/myfolder/src
+  #     # - ./*.js:/myfolder/email.js
+
+  #   ports:
+  #     - 3000:3000
+  #   env_file:
+  #     - ./.env.docker
+
+  mysql:
+    # platform: linux/x86_64
+    image: mysql:latest
+    command: --character-set-server=utf8mb4 --collation-server=utf8mb4_unicode_ci
+    restart: always
+    ports:
+      - 3306:3306
+    environment:
+      MYSQL_ROOT_PASSWORD: ${DATABASE_ROOT_PASSWORD}
+      MYSQL_DATABASE: ${DEV_DB_DATABASE}
