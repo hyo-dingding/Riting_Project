@@ -1,0 +1,7 @@
+# //OS Related Files
+# .DS_Store
+
+# //Git Ignore
+# .gitignore
+node_modules
+.env*
