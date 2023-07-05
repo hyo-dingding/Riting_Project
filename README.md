@@ -40,3 +40,8 @@ $ yarn start
 # watch mode
 $ yarn start:dev
 ```
+## Test
+```
+$ yarn test:e2e
+
+```
